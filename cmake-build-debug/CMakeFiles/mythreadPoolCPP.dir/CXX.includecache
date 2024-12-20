@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/computer_Study/pthreads_study/mythreadPoolCPP/TaskQueue.h
+queue
+-
+pthread.h
+-
+
+/home/computer_Study/pthreads_study/mythreadPoolCPP/threadpool.cpp
+threadpool.h
+/home/computer_Study/pthreads_study/mythreadPoolCPP/threadpool.h
+iostream
+-
+string.h
+-
+unistd.h
+-
+
+/home/computer_Study/pthreads_study/mythreadPoolCPP/threadpool.h
+TaskQueue.h
+/home/computer_Study/pthreads_study/mythreadPoolCPP/TaskQueue.h
+
